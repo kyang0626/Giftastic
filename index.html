@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GifTastic</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <!--- Jquery Src--->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+</head>
+<body>
+    <main>
+        <header>GifTastic</header>
+
+        <!-- Gif buttons here-->
+        <div id="buttons-view"></div>
+        <br>
+
+        
+        <form id="gif-form">
+            <label id="input-title" for="gif-input"><span class="blinking">Add a new gif!</span></label>
+            <br>
+            <input type="text" id="gif-input">
+            <br>
+
+            <!-- click to add giffs button here -->
+            <input id="add-gif" type=submit value="Add gif!">
+        </form>
+
+        <section class="gif-here">
+            <!--- GIF's Appear Here --->
+            
+            <div id="gif-section"></div>
+        </section>
+
+    </main>
+
+   
+    
+    
+
+    <!--- Javascript Source --->
+    <script src="assets/javascript/gif.js"></script>
+</body>
+</html>

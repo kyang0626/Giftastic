@@ -1,0 +1,48 @@
+body{
+    background: white;
+    margin: 0px 40px;
+}
+main {
+    background: rgb(207, 207, 207);
+    text-align: center;
+    margin: 0px 40px;
+    padding-bottom: 450px;
+
+}
+
+header {
+    color: white;
+    text-shadow: 4px 4px gray;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+
+button {
+    background: turquoise;
+    color: white;
+    margin: 5px;
+    border-radius: 6px;
+}
+
+#input-title {
+    font-weight: bold;
+}
+
+form {
+    text-align: center;
+}
+
+.blinking {
+    animation:blinkingText 1s infinite;
+}
+
+@keyframes blinkingText {
+    0% { color: #000;}
+    49% {color: transparent}
+    50% { color: transparent;}
+    99% { color: transparent;}
+    100% { color: #000;}
+}
