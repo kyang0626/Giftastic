@@ -7,7 +7,7 @@
 
 ###### Users can find GIFs by clicking the default buttons that is already on the page. The GIFs will then appear on the page in a static state. Users can click on the GIFs to make it dynamic.
 
-![Alt Text](./assets/images-adding-gif.gif)
+![Alt Text](./assets/images/adding-gif.gif)
 
 ###### Users can  also add their own button to the page and click it to look for the new GIF.
 
